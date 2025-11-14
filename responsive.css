@@ -1,0 +1,68 @@
+/* @media (min-width: 1500px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1420px;
+    }
+}
+@media (min-width: 1600px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1520px;
+    }
+} */
+/* Banner adjustments for mobile */
+@media (max-width: 992px) {
+    #banner .content {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+    }
+
+    .banner-buttons {
+        justify-content: center;
+        padding-left: 0;
+    }
+
+    .second-image {
+
+        display: none;
+    }
+
+    .banner-testimonial {
+        flex-direction: column;
+        gap: 20px;
+        border-top: none;
+    }
+}
+
+/* Header and Service adjustments for mobile */
+@media (max-width: 768px) {
+    .header-body {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .templete {
+        padding: 20px;
+    }
+
+    .banner-item h2 {
+        font-size: 48px;
+        line-height: 1.2;
+    }
+
+    .banner-item p {
+        font-size: 14px;
+    }
+}
+
+/* Navbar social icons spacing */
+@media (max-width: 576px) {
+    .navbar-nav {
+        gap: 10px;
+    }
+
+    .d-flex.gap-3.mt-3 {
+        justify-content: center;
+    }
+}
